@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot](assets/images/Screenshot%202025-04-21%20at%2011.36.17.png)
 
 ### Links
 
