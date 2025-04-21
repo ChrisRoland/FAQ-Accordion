@@ -724,7 +724,7 @@ video {
 
 body {
   font-family: 'Work Sans', sans-serif;
-  background-image: url(../assets/images/background-pattern-desktop.svg);
+  background-image: url(../assets/images/background-pattern-desktop.svg) !important;
   background-repeat: no-repeat;
   background-color: #f9f0ff;
   /* color: hsl(210, 22%, 49%); */
