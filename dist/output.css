@@ -574,6 +574,10 @@ video {
   top: 10rem;
 }
 
+.top-48 {
+  top: 12rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -648,6 +652,54 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[bg-pattern\] {
+  background-color: bg-pattern;
+}
+
+.bg-\[url\] {
+  background-color: url;
+}
+
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(\'assets\/images\/bg-pattern-desktop\.svg\'\)\] {
+  background-image: url('assets/images/bg-pattern-desktop.svg');
+}
+
+.bg-\[url\(\'assets\/images\/bac-desktop\.svg\'\)\] {
+  background-image: url('assets/images/bac-desktop.svg');
+}
+
+.bg-\[url\(\'assets\/images\/back-desktop\.svg\'\)\] {
+  background-image: url('assets/images/back-desktop.svg');
+}
+
+.bg-\[url\(\'assets\/images\/background-desktop\.svg\'\)\] {
+  background-image: url('assets/images/background-desktop.svg');
+}
+
+.bg-\[url\(\'assets\/images\/background-pattern-desktop\.svg\'\)\] {
+  background-image: url('assets/images/background-pattern-desktop.svg');
+}
+
+.bg-\[url\(\'\/assets\/images\/background-pattern-desktop\.svg\'\)\] {
+  background-image: url('/assets/images/background-pattern-desktop.svg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .p-6 {
   padding: 1.5rem;
 }
@@ -716,7 +768,7 @@ video {
 
 body {
   font-family: 'Work Sans', sans-serif;
-  background-image: url(assets/images/background-pattern-desktop.svg);
+  /* background-image: url(assets/images/background-pattern-desktop.svg); */
   background-repeat: no-repeat;
   background-color: #f9f0ff;
   /* color: hsl(210, 22%, 49%); */

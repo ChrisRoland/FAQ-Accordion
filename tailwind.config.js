@@ -2,8 +2,12 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
-    extend: {},
+    extend: {
+      // backgroundImage: {
+      //   'bg-pattern': "url('assets/images/background-pattern-desktop.svg')",
+      //   'bg-pattern-mob': "url('assets/images/background-pattern-mobile.svg')",
+      // }
+    },
   },
   plugins: [],
 }
-
